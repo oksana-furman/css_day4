@@ -150,10 +150,9 @@ input {
 .products {
     width: 80%;
     height: 350px;
-    border: 2px solid red;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -50px;
+    margin-top: -80px;
     position: relative;
     z-index: 40;
 }
@@ -168,15 +167,13 @@ input {
 }
 
 .display {
-    border: 2px solid red;
     height: 85%;
-    width: 24%;
+    width: 32%;
     padding: 10px;
 }
 
 .grid {
     display: grid;
-    border: 1px solid green;
     height: inherit;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -184,15 +181,60 @@ input {
 }
 
 .gridItems {
-    border: 2px solid goldenrod;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .imgCover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 200px;
 }
 
 .i1 {
-    background-image: url(/Nenad/Challenge/imgs/linh-le-giP0e750Dr8-unsplash.jpg);
+    background-image: url(/Nenad/Challenge/imgs/decor1.jpg);
+}
+
+.i2 {
+    background-image: url(/Nenad/Challenge/imgs/decor2.jpg);
+}
+
+.i3 {
+    background-image: url(/Nenad/Challenge/imgs/decor3.jpg);
+}
+
+.i4 {
+    background-image: url(/Nenad/Challenge/imgs/decor4.jpg);
+}
+
+.i5 {
+    background-image: url(/Nenad/Challenge/imgs/ele1.jpg);
+}
+
+.i6 {
+    background-image: url(/Nenad/Challenge/imgs/ele2.jpg);
+}
+
+.i7 {
+    background-image: url(/Nenad/Challenge/imgs/ele3.jpg);
+}
+
+.i8 {
+    background-image: url(/Nenad/Challenge/imgs/ele4.jpg);
+}
+
+.i9 {
+    background-image: url(/Nenad/Challenge/imgs/b1.jpg);
+}
+
+.i10 {
+    background-image: url(/Nenad/Challenge/imgs/b2.jpg);
+}
+
+.i11 {
+    background-image: url(/Nenad/Challenge/imgs/b3.jpg);
+}
+
+.i12 {
+    background-image: url(/Nenad/Challenge/imgs/b4.jpg);
 }
