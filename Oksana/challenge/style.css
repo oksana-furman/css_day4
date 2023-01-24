@@ -22,10 +22,14 @@
 }
 
 .item {
-    background-color: rgb(245, 240, 230);
     height: 440px;
     width: 260px;
     box-shadow: rgb(213, 219, 219) 0px 7px 15px 0px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    transition: width 2s, height 2s, transform 1s;
 }
 
 .price {
