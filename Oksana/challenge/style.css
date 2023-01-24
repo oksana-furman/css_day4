@@ -40,9 +40,12 @@ img {
 
 .picture {
     height: 60%;
-    max-height: 270px;
 }
 
 .cart-body {
     height: 40%;
+}
+
+h2 {
+    text-align: center;
 }
